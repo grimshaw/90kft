@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#black {
+	background-image:url(images/bg-black.jpg);
+	background-position:center;
+}
+
+#blue {
+	background-image:url(images/bg-blue_02.jpg);
+	background-position:center;
+}
