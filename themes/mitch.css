@@ -10,3 +10,9 @@
 	background-image:url(images/bg-blue_02.jpg);
 	background-position:center;
 }
+
+#no-padding {
+	padding:0; 
+}
+
+
