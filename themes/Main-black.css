@@ -28,7 +28,7 @@
 	background-image:         linear-gradient( #48ccFF /*{a-bar-background-start}*/, #3ba7d5 /*{a-bar-background-end}*/);
 }
 .ui-bar-a .ui-link-inherit {
-	color: #ffffff /*{a-bar-color}*/;
+	color: #ffffff /*{a-bar-colors}*/;
 }
 
 .ui-bar-a a.ui-link {
