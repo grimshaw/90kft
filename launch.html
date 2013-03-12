@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>links</title>
+		<link rel="stylesheet" href="themes/Main-black.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+        <link href="themes/mitch.css" rel="stylesheet" type="text/css">
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+        
+        <!--Flexslider stuff ----------------------------->
+        <!-- Demo CSS -->
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+        <script src="js/modernizr.js"></script>
+        
+	</head>
+	<body>
+		<div data-role="page" data-theme="a">
+        
+       	<div data-role="header" data-theme="a" data-position="fixed" class="shadow" data-id="navh">
+            	<h1>Launch</h1>
+            </div>
+            
+            
+			<div data-role="content" data-theme="a">
+            	<h4>Prepare to Launch</h4>
+            	<p>Enter your info to predict the balloon's flight path.</p>
+                <ul data-role="listview" data-theme="b">
+                	<li data-role="list-divider">BALLOON</li>
+                    	<form>
+                            <div data-role="fieldcontain" class="yes-padding">
+                                <label for="slider-7">Burst diameter: (ft)</label>
+                                <input type="range" name="slider-1" id="slider-1" min="6" max="40" value="12" data-highlight="true">
+                            </div>
+                        </form>
+                        <form>
+                            <div data-role="fieldcontain" class="yes-padding">
+                                <label for="slider-7">Inflated diameter: (ft)</label>
+                                <input type="range" name="slider-2" id="slider-2" min="2" max="20" value="6" data-highlight="true">
+                            </div>
+                        </form>
+                        
+                    <li data-role="list-divider">PARACHUTE</li>
+                    	<form>
+                            <div data-role="fieldcontain" class="yes-padding">
+                                <label for="slider-7">Diameter: (ft)</label>
+                                <input type="range" name="slider-3" id="slider-3" min="1" max="6" value="3" data-highlight="true">
+                            </div>
+                        </form>
+                        
+                        <form>
+                            <div data-role="controlgroup" data-type="horizontal" class="yes-padding">
+                                <legend>Shape:</legend>
+                                <input type="radio" name="radio-choice-h-2" id="radio-choice-h-2a" value="on" checked="checked">
+                                <label for="radio-choice-h-2a">Round</label>
+                                <input type="radio" name="radio-choice-h-2" id="radio-choice-h-2b" value="off">
+                                <label for="radio-choice-h-2b">Square</label>
+                                <input type="radio" name="radio-choice-h-2" id="radio-choice-h-2c" value="other">
+                                <label for="radio-choice-h-2c">Triangle</label>
+                            </div>
+                        </form>
+                        
+                        
+                     <li data-role="list-divider">PAYLOAD WEIGHT</li>
+                     	<form>
+                            <div data-role="fieldcontain" class="yes-padding">
+                                <label for="slider-7">Pounds</label>
+                                <input type="range" name="slider-4" id="slider-4" min="0" max="4" value="2" data-highlight="true">
+                            </div>
+                        </form>
+                        <form>
+                            <div data-role="fieldcontain" class="yes-padding">
+                                <label for="slider-7">Ounces</label>
+                                <input type="range" name="slider-5" id="slider-5" min="0" max="15" value="8" data-highlight="true">
+                            </div>
+                        </form>
+                        
+                        <li data-role="list-divider">LAUNCH</li>
+                            
+                </ul>
+                	<div data-role="content" data-theme="a">
+                    			<form>
+                                            <input type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" class="custom" data-mini="true" >
+                                			<label for="checkbox-mini-0" style="width:100px;">I agree</label>
+                                </form>
+                                            <p class="yes-padding">Test variables using the TEST SETTINGS button. Tap LAUNCH to begin tracking your balloon's flight!</p>
+                                            <a href="#" data-role="button">Test Settings</a>
+                                            <a href="#" data-role="button" data-theme="c" >LAUNCH</a>
+                     </div>              
+        
+                
+			</div> <!--End Content div -->
+	
+	<div data-role="footer" data-position="fixed" data-theme="b" data-id="navp">
+		<div data-role="navbar" data-theme="b">
+		<ul>
+				<li><a href="index.html" data-icon="home" data-transition="none" data-inline="true">Home</a></li>
+                <li><a href="links.html" data-icon="grid"  data-transition="none" data-inline="true">Links</a></li>
+				<li><a href="#" data-icon="check" class="ui-btn-active ui-state-persist" data-transition="none" data-inline="true">Launch</a></li>
+				<li><a href="#" data-icon="gear">Map</a></li>
+                <li><a href="#" data-icon="info">Data</a></li>
+		</ul>
+		</div>
+	</div>
+    </div> <!-- End page div -->
+            
+        
+        
+	</body>
+</html>
