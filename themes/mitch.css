@@ -20,20 +20,21 @@
 #shim {
 	padding:0 30px 0 30px;
 	position:relative;
-	top:-30px;
+	top:-60px;
+	border-top:5px solid #42baed;
 }
 
 .shim-2 {
 	margin: 0 0 0 25px;
 	float:left;
-	width:275px;
+	width:230px;
 }
 
 #shim h2 {
 	text-align:center;
 	font-family: 'Open Sans Condensed';
 	font-weight:700;
-	font-size:36px;
+	font-size:42px;
 	letter-spacing:1px;
 	text-shadow: 0px 2px 0 #000;
 }
