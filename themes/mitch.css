@@ -26,9 +26,10 @@
 
 .shim-2 {
 	position:relative;
-	width: 240px;
-	float:right;
-	display:block;
+	padding:0 0 0 50px;
+	overflow:hidden;
+	float:left;
+	width:230px;
 }
 
 #shim h2 {
@@ -67,16 +68,6 @@ p {
 .left-icon {
 	width:24px;
 	height:24px;
-	left:10px;
-	top:8px;
-	position:relative;
+	overflow:hidden;
 	float:left;
 }
-
-.100 {
-	width: 320px;
-	height:100%;
-	display:block;
-	overflow:hidden;
-	position:relative;
-}|
