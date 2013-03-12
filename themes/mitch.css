@@ -43,6 +43,14 @@
 	font-size:42px;
 	letter-spacing:1px;
 	text-shadow: 0px 2px 0 #000;
+	margin:10px 0 10px 0;
+}
+
+#arrow {
+	width:24px;
+	height:100%;
+	margin: 0 0 15px 120px;
+	position:relative;
 }
 
 #shim h3 {
@@ -70,10 +78,29 @@ p {
 }
 
 .left-icon {
-	width:24px;
-	height:24px;
-	overflow:hidden;
+	width:18px;
+	height:18px;
 	float:left;
+}
+
+#icon-links {
+	position:absolute;
+	margin: 8px 0 0 12px;
+}
+
+#icon-launch {
+	position:absolute;
+	margin: 130px 0 0 -267px;
+}
+
+#icon-map {
+	position:absolute;
+	margin: 275px 0 0 -264px;
+}
+
+#icon-data {
+	position:absolute;
+	margin: 444px 0 0 -264px;
 }
 
 
