@@ -38,7 +38,7 @@
 
 .shim-2 {
 	position:relative;
-	padding:0 0 0 50px;
+	padding:0 0 0 40px;
 	overflow:hidden;
 	float:left;
 	width:230px;
@@ -93,7 +93,7 @@ p {
 
 #icon-links {
 	position:absolute;
-	margin: 8px 0 0 12px;
+	margin: 10px 0 0 5px;
 }
 
 #icon-launch {
@@ -120,4 +120,18 @@ p {
 	position:relative;
 	top:-60px;
 	left:40px;
+}
+
+/*------------------------- GENERAL THINGS  ------------------- */
+
+.shiny {
+background: #202020; /* Old browsers */
+background: -moz-linear-gradient(left, #202020 0%, #323232 30%, #323232 50%, #323232 70%, #202020 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#202020), color-stop(30%,#323232), color-stop(50%,#323232), color-stop(70%,#323232), color-stop(100%,#202020)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #202020 0%,#323232 30%,#323232 50%,#323232 70%,#202020 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #202020 0%,#323232 30%,#323232 50%,#323232 70%,#202020 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #202020 0%,#323232 30%,#323232 50%,#323232 70%,#202020 100%); /* IE10+ */
+background: linear-gradient(to right, #202020 0%,#323232 30%,#323232 50%,#323232 70%,#202020 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202020', endColorstr='#202020',GradientType=1 ); /* IE6-9 */
+
 }
