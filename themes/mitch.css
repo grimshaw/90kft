@@ -17,6 +17,10 @@
 	padding:0; 
 }
 
+#yes-padding {
+	padding:15px; 
+}
+
 #shim {
 	padding:0 30px 0 30px;
 	position:relative;
@@ -70,4 +74,15 @@ p {
 	height:24px;
 	overflow:hidden;
 	float:left;
+}
+
+
+
+/*------------------------- LINKS PAGE  ------------------- */
+
+#purchase {
+	width:120px;
+	position:relative;
+	top:-60px;
+	left:45px;
 }
