@@ -25,35 +25,70 @@
             </div>
             
             
-			<div data-role="content" data-theme="a" class="shiny">
-            	<h4>Prepare to Launch</h4>
+			<div data-role="content" data-theme="a" class="shiny" style="padding: 20px 30px 0 30px;">
+            	<img src="images/321.png" style="width:100%;">
+            	<h3>Prepare to Launch</h3>
             	<p>Enter your info to predict the balloon's flight path.</p>
+             </div>   
+                
+            <div data-role="content" data-theme="a" class="shiny">
                 <ul data-role="listview" data-theme="b">
-                	<li data-role="list-divider">BALLOON</li>
+                	<li data-role="list-divider">BALLOON<a href="#popupDialog1" data-rel="popup" data-position-to="window" data-role="button" data-iconpos="notext" data-inline="true" data-transition="pop" data-icon="info" data-mini="true" data-theme="b"></a></li>
+                    		<div data-role="popup" id="popupDialog1" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+                                <div data-role="header" data-theme="a" class="ui-corner-top">
+                                    <h1>Balloon</h1>
+                                </div>
+                                <div data-role="content" data-theme="d" class="ui-corner-bottom ui-content">
+                                    <h3 class="ui-title">The right stuff</h3>
+                                    <p>Weather balloons come in all shapes and<br>
+                                    sizes. As the balloon rises it will expand<br>
+                                    and eventually burst. Inflate the balloon to<br>
+                                    accommodate for enough expansion. Typically<br>
+                                    a balloon will double in size.</p>
+                                    <a href="#" data-role="button" data-inline="true" data-rel="back" data-theme="c">Ok</a>
+                                </div>
+                            </div>
+                            
                     	<form>
-                            <div data-role="fieldcontain" class="yes-padding">
-                                <label for="slider-7">Burst diameter: (ft)</label>
+                            <div data-role="fieldcontain" class="yes-padding-30">
+                                <label for="slider-7" class="label-custom">Burst diameter: (ft)</label>
                                 <input type="range" name="slider-1" id="slider-1" min="6" max="40" value="12" data-highlight="true">
                             </div>
                         </form>
                         <form>
-                            <div data-role="fieldcontain" class="yes-padding">
-                                <label for="slider-7">Inflated diameter: (ft)</label>
+                            <div data-role="fieldcontain" class="yes-padding-30 bottom">
+                                <label for="slider-7" class="label-custom">Inflated diameter: (ft)</label>
                                 <input type="range" name="slider-2" id="slider-2" min="2" max="20" value="6" data-highlight="true">
                             </div>
                         </form>
                         
-                    <li data-role="list-divider">PARACHUTE</li>
+                    <li data-role="list-divider">PARACHUTE<a href="#popupDialog2" data-rel="popup" data-position-to="window" data-role="button" data-iconpos="notext" data-inline="true" data-transition="pop" data-icon="info" data-mini="true" data-theme="b"></a></li>
+                    <div data-role="popup" id="popupDialog2" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+                                <div data-role="header" data-theme="a" class="ui-corner-top">
+                                    <h1>Parachute</h1>
+                                </div>
+                                <div data-role="content" data-theme="d" class="ui-corner-bottom ui-content">
+                                    <h3 class="ui-title">Protect your ride</h3>
+                                    <p>You'll need to attach a parachute to<br>
+                                    your capsul to prevent your equipment<br>
+                                    from being smashed to pieces. Choose one <br>
+                                    that will fall at the right rate for your<br>
+                                    payload weight. A fall rate of <br>
+                                    20-30 ft/sec is good.</p>
+                                    <a href="#" data-role="button" data-inline="true" data-rel="back" data-theme="c">Ok</a>
+                                </div>
+                            </div>
+                    
                     	<form>
-                            <div data-role="fieldcontain" class="yes-padding">
-                                <label for="slider-7">Diameter: (ft)</label>
+                            <div data-role="fieldcontain" class="yes-padding-30">
+                                <label for="slider-7" class="label-custom">Diameter: (ft)</label>
                                 <input type="range" name="slider-3" id="slider-3" min="1" max="6" value="3" data-highlight="true">
                             </div>
                         </form>
                         
                         <form>
-                            <div data-role="controlgroup" data-type="horizontal" class="yes-padding">
-                                <legend>Shape:</legend>
+                            <div data-role="controlgroup" data-type="horizontal" class="yes-padding-30 bottom">
+                                <legend class="label-custom">Shape:</legend>
                                 <input type="radio" name="radio-choice-h-2" id="radio-choice-h-2a" value="on" checked="checked" data-mini="true">
                                 <label for="radio-choice-h-2a" >Round</label>
                                 <input type="radio" name="radio-choice-h-2" id="radio-choice-h-2b" value="off" data-mini="true">
@@ -64,8 +99,8 @@
                         </form>
                         
                         
-                     <li data-role="list-divider">PAYLOAD WEIGHT<a href="#popupDialog" data-rel="popup" data-position-to="window" data-role="button" data-iconpos="notext" data-inline="true" data-transition="pop" data-icon="info" data-mini="true" data-theme="b"></a></li>
-                            <div data-role="popup" id="popupDialog" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+                     <li data-role="list-divider">PAYLOAD WEIGHT<a href="#popupDialog3" data-rel="popup" data-position-to="window" data-role="button" data-iconpos="notext" data-inline="true" data-transition="pop" data-icon="info" data-mini="true" data-theme="b"></a></li>
+                            <div data-role="popup" id="popupDialog3" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
                                 <div data-role="header" data-theme="a" class="ui-corner-top">
                                     <h1>Weight</h1>
                                 </div>
@@ -81,14 +116,14 @@
                             </div>
                             
                      	<form>
-                            <div data-role="fieldcontain" class="yes-padding">
-                                <label for="slider-7">Pounds</label>
+                            <div data-role="fieldcontain" class="yes-padding-30">
+                                <label for="slider-7" class="label-custom">Pounds</label>
                                 <input type="range" name="slider-4" id="slider-4" min="0" max="4" value="2" data-highlight="true">
                             </div>
                         </form>
                         <form>
-                            <div data-role="fieldcontain" class="yes-padding">
-                                <label for="slider-7">Ounces</label>
+                            <div data-role="fieldcontain" class="yes-padding-30 bottom">
+                                <label for="slider-7" class="label-custom">Ounces</label>
                                 <input type="range" name="slider-5" id="slider-5" min="0" max="15" value="8" data-highlight="true">
                             </div>
                         </form>
@@ -97,7 +132,7 @@
                             
                 </ul>
                 	<div data-role="content" data-theme="a" class="shiny">
-                                            <p class="yes-padding">Test variables using the TEST SETTINGS button. Tap LAUNCH to begin tracking your balloon's flight!</p>
+                                            <p class="yes-padding-30">Test variables using the TEST SETTINGS button. Tap LAUNCH to begin tracking your balloon's flight!</p>
                                             <a href="#" data-role="button">Test Settings</a>
                                             <a href="#" data-role="button" data-theme="c" >LAUNCH</a>
                      </div>              
