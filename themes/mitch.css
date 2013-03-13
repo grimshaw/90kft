@@ -144,6 +144,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202020', end
 
 }
 
+.large h1{
+	font-size:36px;
+}
+
 
 
 /*------------------------- Launch Page  ------------------- */
